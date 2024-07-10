@@ -10,12 +10,13 @@ You will need a HuggingFace account and to create an access token.
 ### Google Drive Integration
 If you want to utilise the code that uses Google Drive, you have set up appropriate folder manually on Google Drive and put the PDF file you want to process in there.
 
-
-
 ## Tested Models
 The notebook has been tested on a Google Colab machine with 16GB VRAM. Here are the models that have been tested:
 - **gemma-2b-it**: Suitable when `SMALL_VRAM=False`.
 - **gemma-7b-it**: Works on CUDA (`'cuda'`) with `SMALL_VRAM=True`.
+
+## Feedback
+This code is written mainly for learning purposes so any feedback and comments are VERY much appreciated. Please check my bio for all up to date socials.
 
 ## Credits
 Credits to Daniel Bourke, whose video [link here](https://www.youtube.com/watch?v=qN_2fnOPY-M) served as the basis for this project.
