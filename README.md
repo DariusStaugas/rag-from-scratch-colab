@@ -1,9 +1,21 @@
-# Implementing Retrieval Augmented Generation from scratch on Google Colab
-This notebook was designed with limitations of resources from Google Colab in mind, so it is meant to be quite adjustable when it comes to devices and resources
-This notebook is also designed to store files (the pdf to do RAG from and embeddings) in the google drive. You might need to create apropriate folders manually
+# Implementing Retrieval Augmented Generation from Scratch on Google Colab
 
-Tested models on 16GB VRAM Google Colab machine:
-gemma-2b-it (can do SMALL_VRAM=False)
-gemma-7b-it (works on 'cuda' with SMALL_VRAM=True)
+## Overview
+This notebook is designed to process data from a PDF file and do Retrieval Augmented Generation (RAG) while considering resource limitations on Google Colab. It offers flexibility in adjusting to different devices and resource constraints.
 
-Credits to Daniel Bourke, as the base of this project was written following his video: https://www.youtube.com/watch?v=qN_2fnOPY-M
+## Setup Instructions and General Information
+### HuggingFace Drive Integration
+You will need a HuggingFace account and to create an access token.
+
+### Google Drive Integration
+If you want to utilise the code that uses Google Drive, you have set up appropriate folder manually on Google Drive and put the PDF file you want to process in there.
+
+
+
+## Tested Models
+The notebook has been tested on a Google Colab machine with 16GB VRAM. Here are the models that have been tested:
+- **gemma-2b-it**: Suitable when `SMALL_VRAM=False`.
+- **gemma-7b-it**: Works on CUDA (`'cuda'`) with `SMALL_VRAM=True`.
+
+## Credits
+Credits to Daniel Bourke, whose video [link here](https://www.youtube.com/watch?v=qN_2fnOPY-M) served as the basis for this project.
