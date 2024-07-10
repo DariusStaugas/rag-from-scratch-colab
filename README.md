@@ -4,7 +4,7 @@
 This notebook is designed to process data from a PDF file and do Retrieval Augmented Generation (RAG) while considering resource limitations on Google Colab. It offers flexibility in adjusting to different devices and resource constraints.
 
 ## Setup Instructions and General Information
-### HuggingFace Drive Integration
+### HuggingFace Integration
 You will need a HuggingFace account and to create an access token.
 
 ### Google Drive Integration
@@ -12,8 +12,8 @@ If you want to utilise the code that uses Google Drive, you have set up appropri
 
 ## Tested Models
 The notebook has been tested on a Google Colab machine with 16GB VRAM. Here are the models that have been tested:
-- **gemma-2b-it**: Suitable when `SMALL_VRAM=False`.
-- **gemma-7b-it**: Works on CUDA (`'cuda'`) with `SMALL_VRAM=True`.
+- **gemma-2b-it**: Use `SMALL_VRAM=False`.
+- **gemma-7b-it**: Works on `'cuda'` with `SMALL_VRAM=True`.
 
 ## Feedback
 This code is written mainly for learning purposes so any feedback and comments are VERY much appreciated. Please check my bio for all up to date socials.
